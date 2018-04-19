@@ -1,0 +1,119 @@
+.container{
+	padding:20vw 10vh 20vw 10vh;
+}
+i {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+}
+.navbar{
+	display:flex;
+	flex-direction:row;
+	background:lightgrey;
+	border-radius:5px;
+	border-shadow:2px 3px 20px 2px;
+	padding:1rem;
+
+}
+.nav{
+	font-size:2rem;
+	
+	margin:1rem;
+	color:black;
+}
+.home{
+	font-size:1.9rem;
+
+	margin:1rem;
+	color:black;
+}
+.login{
+	font-size:1.9rem;
+	
+	margin:1rem;
+	color:black;
+}
+.settings{
+	color:black;
+	font-size:1.9rem;
+}
+
+.srh{
+	display:flex;
+	background:white;
+	margin-left:auto;
+	font-size:1.5rem;
+
+}
+.ss{
+	padding:0.5rem;
+	font-size:1.5rem;
+}
+.dsy{
+	font-style:bold;
+	font-size:2rem;
+	color:blue;
+
+}
+.ddctn{
+	display:flex;
+	flex-direction:column;
+	font-size:1.9rem;
+	background:lightgrey;
+	width:auto;
+	padding:1rem;
+}
+.ddctn .dd{
+	margin:1.5rem;
+	
+	color:black;
+}
+.ddctn .dd-2{
+	margin:1.5rem;
+	color:black;
+}
+.ddctn .dd-3{
+	margin:1.5rem;
+	color:black;
+}
+.down {
+    transform:rotate(45deg);
+    -webkit-transform:rotate(45deg);
+    margin-left:0.4rem;
+    
+}
+.up {
+    transform:rotate(-135deg);
+    -webkit-transform:rotate(-135deg);
+    margin-left:0.4rem;
+}
+
+@media screen and (max-width:1092px){
+	.navbar{
+	display:flex;
+	flex-direction:column;
+	background:lightgrey;
+	border-radius:5px;
+	border-shadow:2px 3px 20px 2px;
+	padding:1rem;}
+	.srh{
+		margin-left:1rem;
+	}
+	.ss{margin-left:1rem;
+		width:auto;
+	}
+}
+@media screen and (max-width:500px){
+	.ddctn .dd{
+	margin:1rem;
+	
+	color:black;
+}
+.ddctn .dd-2{
+	margin:1rem;
+	color:black;
+}
+.ddctn .dd-3{
+	margin:1rem;
+	color:black;}}
